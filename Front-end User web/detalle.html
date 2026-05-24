@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Detalle del ejercicio con video -->
+  <div class="app">
+    <div class="contenido detalle">
+      <h1 id="nombre"></h1>
+      <span class="etiqueta" id="tag"></span>
+      <div id="descripcion"></div>
+      <div class="video">
+        <iframe id="video" width="100%" height="100%" style="border:none;border-radius:10px" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+      <div class="repes"><span id="reps"></span> x <span id="series"></span></div>
+      <a href="javascript:history.back()" class="btn oscuro" style="text-align:center;text-decoration:none">Back</a>
+    </div>
+  </div>
+  <script src="js/datos.js"></script>
+  <script src="js/detalle.js"></script>
+</body>
+</html>
