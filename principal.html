@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Start Gym</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Pantalla Principal de ejercicios (Musculacion) -->
+  <div class="app">
+    <div class="contenido">
+      <div id="banner"></div>
+      <a href="disciplinas.html" class="volver"><i class="fa-solid fa-arrow-left"></i></a>
+      <a href="disciplinas.html"><img class="logo" src="logo-NewStart.png" alt="New Start Gym" style="margin-bottom:16px"></a>
+      <p class="titulo-seccion">Dias de la semana</p>
+      <div class="dias" id="dias"></div>
+      <div class="buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="buscador" id="buscador" type="search" placeholder="Buscar ejercicio">
+      </div>
+      <div class="grupo" onclick="irGrupo('tren-superior')">Tren superior <i class="fa-solid fa-arrow-right"></i></div>
+      <div class="grupo" onclick="irGrupo('hombros')">Hombros <i class="fa-solid fa-arrow-right"></i></div>
+      <div class="grupo" onclick="irGrupo('brazos')">Brazos <i class="fa-solid fa-arrow-right"></i></div>
+      <div class="grupo" onclick="irGrupo('core')">Core <i class="fa-solid fa-arrow-right"></i></div>
+      <div class="grupo" onclick="irGrupo('gluteos')">Glúteos <i class="fa-solid fa-arrow-right"></i></div>
+      <div class="grupo" onclick="irGrupo('tren-inferior')">Tren inferior <i class="fa-solid fa-arrow-right"></i></div>
+      <textarea class="nota" id="nota" placeholder="Notas del entrenador..."></textarea>
+    </div>
+    <nav class="barra-nav" id="nav"></nav>
+  </div>
+  <script src="js/datos.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/principal.js"></script>
+</body>
+</html>
