@@ -1,7 +1,0 @@
-flecha: 
-<i class="fa-solid fa-arrow-down"></i>
-
-Lupa de busqueda :
-
-<i class="fa-solid fa-magnifying-glass"></i>
-
